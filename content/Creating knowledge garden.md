@@ -50,7 +50,7 @@ Quartz is the engine that will turn your Markdown files into a functioning websi
    npx quartz create
    ```
 
-- Choose the `symlink` option. Put the Public folder's directory link
+
 - Manually create an `index.md` file and put it in content subfolder. Example:
 
 ```
@@ -61,7 +61,7 @@ Welcome to my digital garden!
 ```
 
 
-5. Test it locally:
+1. Test it locally:
    ```bash
    npx quartz build --serve
    ```
