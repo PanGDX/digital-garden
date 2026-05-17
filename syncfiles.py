@@ -6,7 +6,7 @@ import urllib.parse
 
 def main():
     # 1. Prompt for directories with defaults
-    obsidian_dir_default = "/home/pran/Documents/Pran's Vault/Media"
+    obsidian_dir_default = "/home/pran/Documents/Pran's Vault/Public"
     content_dir_default = "/home/pran/Desktop/digital-garden/content"
     media_dir_default = "/home/pran/Documents/Pran's Vault/Media"
 

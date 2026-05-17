@@ -1,9 +1,9 @@
-![[VIPS.png|200]]![[Ikigai Example.jpg|500]]
+![Local picture](../Media/VIPS.png)![Local picture](../Media/Ikigai%20Example.jpg)
 
 **Ikigai also includes WHAT THE WORLD NEEDS**
 This means keeping up with world news and geopolitics.
 
-![[Job Search Pyramid.jpg|697]]
+![Local picture](../Media/Job%20Search%20Pyramid.jpg)
 
 
 **Global Internship Program**
@@ -114,7 +114,7 @@ For instance, participating in competitions or events. Or being in a club that p
 
 
 
-![[ugresumelabelc8f7145994bb46b6837b13048424cdd3 (1).png]]
+![Local picture](../Media/ugresumelabelc8f7145994bb46b6837b13048424cdd3%20%281%29.png)
 - ### Sections to Include
     - Name and contact details
     - Education
@@ -152,7 +152,7 @@ Whenever possible, **quantify the results** of your efforts by stating the contr
 
 ### ATS (Applicant Tracking Service)
 
-![[What’s an Applicant Tracking System 02_How to format your resume properly.jpg|300]]
+![Local picture](../Media/What%E2%80%99s%20an%20Applicant%20Tracking%20System%2002_How%20to%20format%20your%20resume%20properly.jpg)
 
 
 
@@ -172,7 +172,7 @@ To do this, we research these aspects
 - [PwC's market research and insights(opens in a new tab)](https://www.pwc.com/gx/en)
 - [Google News (opens in a new tab)](https://news.google.com/)& [Google Trends](https://trends.google.com/)
 
-![[Screenshot 2022-06-28 163525.png|300]]
+![Local picture](../Media/Screenshot%202022-06-28%20163525.png)
 
 
 ### Common Mistakes
@@ -325,7 +325,7 @@ Collects info on facial expressions, eye & body movements, clothes, nuances of v
 
 In particular, what Granovetter showed was that people with weak ties not only find jobs that the rest of the tight network cannot see, but that these jobs come with higher compensation and satisfaction.
 
-![[Strong Vs Weak Ties Diagram 1.jpg]]
+![Local picture](../Media/Strong%20Vs%20Weak%20Ties%20Diagram%201.jpg)
 
 #### Elevator Pitch
 - A short and sharp introduction of yourself to spark interest in who you are.
@@ -338,10 +338,10 @@ In particular, what Granovetter showed was that people with weak ties not only f
 - Goals and objectives
 - Skills and experience
 - SAY THANK YOU ESPECIALLY TO RECRUITERS.
-![[Pasted image 20240813184746.png|200]]![[Pasted image 20240813184829.png|200]]![[Pasted image 20240813184921.png|300]]
+![Local picture](../Media/Pasted%20image%2020240813184746.png)![Local picture](../Media/Pasted%20image%2020240813184829.png)![Local picture](../Media/Pasted%20image%2020240813184921.png)
 
 Informative interviews allows us to interview people in the industry and gain direct insight into it. It is also great for building connections.
 
 
 
-When building a network, make sure to give back. Thank them on social media, thank them on LinkedIn, remember their names, comment on their posts, meetup with them, introduce them to other people. etc![[Pasted image 20240817193152.png]]
+When building a network, make sure to give back. Thank them on social media, thank them on LinkedIn, remember their names, comment on their posts, meetup with them, introduce them to other people. etc![Local picture](../Media/Pasted%20image%2020240817193152.png)

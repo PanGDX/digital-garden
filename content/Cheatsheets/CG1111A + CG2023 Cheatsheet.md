@@ -5,24 +5,24 @@
 Complicated circuits? A lot of battery? Weird wires that connect the middle that fucks up calculations? Thevenin Thevenin Thevenin.
 A lot of batteries? Node Voltage. Together? Node Voltage + Thevenin
 
-![[Pasted image 20240913205619.png]]
+![Local picture](../Media/Pasted%20image%2020240913205619.png)
 Flip it inside out
-![[Pasted image 20240913190916.png]]
+![Local picture](../Media/Pasted%20image%2020240913190916.png)
 
-![[Pasted image 20240913170834.png]]
+![Local picture](../Media/Pasted%20image%2020240913170834.png)
 
-![[Pasted image 20240913171307.png]]
+![Local picture](../Media/Pasted%20image%2020240913171307.png)
 Suppose that we have two parallel branches. If we minimise R_B and maximise R_C+R_D, the overall resistance will be around R_B
 
 
 
 
-![[Pasted image 20240910142857.png]]
+![Local picture](../Media/Pasted%20image%2020240910142857.png)
 
 
-	![[Pasted image 20240905151141.png|300]]![[Pasted image 20240905151451.png|300]]
+	![Local picture](../Media/Pasted%20image%2020240905151141.png)![Local picture](../Media/Pasted%20image%2020240905151451.png)
 
-![[Pasted image 20240905141139.png|300]]
+![Local picture](../Media/Pasted%20image%2020240905141139.png)
 
 
 
@@ -62,27 +62,27 @@ Batteries act as a 'booster'. In a branch with only a battery, one side will be 
 
 
 # Capacitors and Inductors
-![[images 4.png]]
+![Local picture](../Media/images%204.png)
 
-![[Pasted image 20240913200905.png]]
+![Local picture](../Media/Pasted%20image%2020240913200905.png)
 
 
 ### Capacitors
 Unit of capacitance is Farad (F), defined as amount of charge stored per volt
 ### $C=\frac{Q}{V}$
 
-![[Pasted image 20240905232810.png|300]]
-![[Pasted image 20240905232914.png|200]]
-![[Pasted image 20240905232927.png|200]]
+![Local picture](../Media/Pasted%20image%2020240905232810.png)
+![Local picture](../Media/Pasted%20image%2020240905232914.png)
+![Local picture](../Media/Pasted%20image%2020240905232927.png)
 
 **Energy stored in capacitor = $W=\frac{1}{2}CV^2$**
 The stored energy can be expressed in terms of the work done in moving the charges to set up the field
 
-![[Pasted image 20240905233234.png|300]]
+![Local picture](../Media/Pasted%20image%2020240905233234.png)
 
 **A capacitor's transient voltage in a series RC circuit is**
 
-![[Pasted image 20240905233313.png|400]]
+![Local picture](../Media/Pasted%20image%2020240905233313.png)
 
 
 
@@ -90,11 +90,11 @@ The stored energy can be expressed in terms of the work done in moving the charg
 ### Inductors
 **An inductor's transient current in a series RL circuit is**
 
-![[Pasted image 20240905233446.png|300]]
-![[Pasted image 20240905233507.png|300]]
+![Local picture](../Media/Pasted%20image%2020240905233446.png)
+![Local picture](../Media/Pasted%20image%2020240905233507.png)
 
-![[Pasted image 20240905233521.png|300]]
-![[Pasted image 20240905233532.png|300]]
+![Local picture](../Media/Pasted%20image%2020240905233521.png)
+![Local picture](../Media/Pasted%20image%2020240905233532.png)
 
 Energy stored is inductor:
 $W=\frac{1}{2}LI^2$
@@ -116,7 +116,7 @@ Current for capacitor cannot change instantly
 Sinusoidal waveforms are in the form
 $v(t)=V_{m}\cos(wt+\theta)$
 Take note that negative will shift the graph FORWARD horizontally. 
-![[Pasted image 20240831210646.png|150]]
+![Local picture](../Media/Pasted%20image%2020240831210646.png)
 
 **RMS**
 RMS is defined as the equivalent values of DC voltage and current that would result in the same average power dissipation in a resistive load.
@@ -138,14 +138,14 @@ $R$
 
 
 Converting to $\cos$
-![[Pasted image 20240905233845.png|300]]
+![Local picture](../Media/Pasted%20image%2020240905233845.png)
 
 
 
 # DC Motors
-![[Pasted image 20240916233027.png|400]]
-![[Pasted image 20240916233036.png|400]]
-![[Pasted image 20240916233045.png|400]]
+![Local picture](../Media/Pasted%20image%2020240916233027.png)
+![Local picture](../Media/Pasted%20image%2020240916233036.png)
+![Local picture](../Media/Pasted%20image%2020240916233045.png)
 
 
 

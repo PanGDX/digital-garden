@@ -1,27 +1,27 @@
 
 A linear function needs to satisfy the properties of homogeneity and addivity
 
-![[Pasted image 20260313074546.png]]
+![Local picture](../Media/Pasted%20image%2020260313074546.png)
 Rows of X = data points 
 Columns of X = features
 w value = weight for EACH FEATYRE
-![[Pasted image 20260313083222.png]]
-![[Pasted image 20260313075411.png]]
+![Local picture](../Media/Pasted%20image%2020260313083222.png)
+![Local picture](../Media/Pasted%20image%2020260313075411.png)
 ## Starting Definitions
 Linear functions are a subset of affine functions that pass through the origin. Affine functions are $f(x_1,x_2...)=Ax_1+Bx_2+...+constant$
 
-![[Pasted image 20260308114505.png|500]]
+![Local picture](../Media/Pasted%20image%2020260308114505.png)
 Thus a linear function MUST pass through the origin
 
 Data wrangling, or data munging, is the process of cleaning, structuring, and transforming raw, messy data into a usable format for analysis, visualization, or machine learning
 Data validation is the process of ensuring data is accurate, complete, and secure before it is used or stored, typically by checking that it conforms to predefined rules, formats, and ranges
 
 argsmax/min
-![[Pasted image 20260308114553.png|396]]
+![Local picture](../Media/Pasted%20image%2020260308114553.png)
 
 
-![[Pasted image 20260124145655.png|475]]
-![[Pasted image 20260308110715.png|386]]
+![Local picture](../Media/Pasted%20image%2020260124145655.png)
+![Local picture](../Media/Pasted%20image%2020260308110715.png)
 Regression models predict continuous numerical values where order matters (e.g., predicting temperature, price, or age)
 Because regression deals with continuous numbers, it interprets the distance between numbers as meaningful. In the numerical mapping above, the model would assume that the difference between "Stop" (3) and "OK" (2) is exactly the same as the difference between "OK" (2) and "Thumbs Up" (1).
 
@@ -40,7 +40,7 @@ Reinforcement Learning (RL) requires an active **agent** that interacts with an 
 - For this to be RL, the AI would actually have to be driving the car (taking actions like steering or braking) and observing how the environment changes based on what it did.
 - In RL, the model learns through trial and error based on **rewards** and **punishments**.
 
-![[Pasted image 20260308110749.png|481]]
+![Local picture](../Media/Pasted%20image%2020260308110749.png)
 - Inductive is probability and statistics, Deductive is rule-based reasoning
 
 
@@ -88,7 +88,7 @@ Causality, or causation is:
 
 
 Simpson's paradox is a phenomenon in probability and statistics, in which a trend appears in several different groups of data but disappears or reverses when these groups are combined
-![[Pasted image 20260308112209.png|502]]
+![Local picture](../Media/Pasted%20image%2020260308112209.png)
 
 
 
@@ -103,7 +103,7 @@ Feature extraction is a dimensionality reduction process that transforms raw, hi
 - **Dimensionality Reduction:** It reduces the number of variables in a dataset, which helps in overcoming the "curse of dimensionality" and improves model performance.
 - **Transformation, Not Selection:** Unlike feature selection, which merely picks a subset of original features, extraction creates _new_ features by combining or transforming the original data points.
 
-![[Pasted image 20260125130159.png|360]]
+![Local picture](../Media/Pasted%20image%2020260125130159.png)
 
 You already know the resulting distribution's mean and std. You just need to know the Z value where the x landed at
 
@@ -143,8 +143,8 @@ Two ways you can look at the data. Any data is a combination of both.
 		- Number of people in household => Discrete, ratio
 		- Credit scores in the US => continuous, interval
 
-![[Pasted image 20260308111107.png|457]]
-![[Pasted image 20260308105938.png|456]]
+![Local picture](../Media/Pasted%20image%2020260308111107.png)
+![Local picture](../Media/Pasted%20image%2020260308105938.png)
 Temperature is an interval when measured using Celsius, but a ratio when measured with Kelvin. This is because Celsius lacks a true zero point while Kelvin does have a true zero point.
 Interval data can be **both continuous and discrete**, depending on the context, although it is frequently treated as continuous
 
@@ -176,25 +176,25 @@ Interval data can be **both continuous and discrete**, depending on the context,
 		- Z-score scaling
 			- Calculate the empirical mean and standard deviation of each feature x-i
 			- Create normalized feature
-			- ![[Pasted image 20260201115549.png]]
+			- ![Local picture](../Media/Pasted%20image%2020260201115549.png)
 			- A lot of consideration due to the notion of unbiased estimator and the assumptions we need to take
 		- Min-max scaling
-			- ![[Pasted image 20260201115657.png]]
+			- ![Local picture](../Media/Pasted%20image%2020260201115657.png)
 			- Simple. Straightforward
 
 ## Probability and Estimation
-![[Pasted image 20260308111753.png|375]]
+![Local picture](../Media/Pasted%20image%2020260308111753.png)
 - Observation $\ne$ true probability
 	- $$Pr(X=x_i,Y=y_i)=\frac{m_{ij}}{m} \ \ IFF \ \ m \to \inf$$
 	- Take a coin toss. Toss it 3 times. The probability is NOT 0.5. It only approaches 0.5 as you toss more and more
 - BUT for these observations $Pr(X=x_i, Y=y_i)$ product rule still applies
-	- ![[Pasted image 20260201120151.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260201120151.png)
 - Bayes' rule
 - See Stats ST2334 cheatsheet for a more comprehensive overview
 $$P(y|x) = \frac{P(x|y) \times P(y)}{P(x)}$$
 - CDF
-	- ![[Pasted image 20260201120215.png]]
-![[Pasted image 20260201115106.png|468]]
+	- ![Local picture](../Media/Pasted%20image%2020260201120215.png)
+![Local picture](../Media/Pasted%20image%2020260201115106.png)
 
 We describe a random experiment by describing its procedure and observations of its outcomes.
 - Outcomes are mutual exclusive in the sense that only one outcome occurs in a specific trial of the random experiment. This also means an outcome is not decomposable.
@@ -217,7 +217,7 @@ How MLE works in laymans term:
     *   Finds mode of the posterior distribution.
     *   Incorporates a **Prior**. Best for **Small** sample sizes.
     * parameter value $\theta$ that maximizes the posterior density
-    * ![[Pasted image 20260308105116.png]]
+    * ![Local picture](../Media/Pasted%20image%2020260308105116.png)
     * 
 
 ## Linear Algebra The Important Stuff
@@ -238,7 +238,7 @@ Given matrix $X$ (size $m \times d$):
     *   **Technique:** **Least Norm Solution** (smallest length vector).
     *   **Formula:** $w = X^T (X X^T)^{-1} y$
     *   *Note:* Uses **Right Inverse**. This means $Y$ for $AY=I$ exists
-![[Pasted image 20260308113911.png|541]]
+![Local picture](../Media/Pasted%20image%2020260308113911.png)
 
 
 
@@ -260,16 +260,16 @@ To determine if a system is under-determined, we must compare the number of samp
 Since the number of samples ($N=4$) is **less than** the number of parameters ($P=6$), the system is **under-determined**. You have more unknowns than you have equations (observations).
 ## Linear Algebra ALL CONTENT
 - Linearly independent
-	- ![[Pasted image 20260201122148.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260201122148.png)
 - Basis
-	- ![[Pasted image 20260201122158.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260201122158.png)
 - Null space
 - Range/Column space
 	- Equivalence (column rank = row rank)
 - rank and dimension
 - rank nullity rule
 
-![[Pasted image 20260201122217.png]]
+![Local picture](../Media/Pasted%20image%2020260201122217.png)
 - **Nature of solutions: overdetermined and underdetermined**
 	- If matrix X is square and full rank, then inverse X exist and we can solve Xy=b easily
 	- BUTTTT it is often not the case!
@@ -280,27 +280,27 @@ Since the number of samples ($N=4$) is **less than** the number of parameters ($
 			- Image recognition (every pixel is a parameter)
 			- Natural language processing
 	- So how do you handle them?
-		- ![[Pasted image 20260201123333.png]]
+		- ![Local picture](../Media/Pasted%20image%2020260201123333.png)
 		- **Rouche Capelli Theorem**
 		- Step 1: Augment the matrix X
-			- ![[Pasted image 20260201123041.png]]
+			- ![Local picture](../Media/Pasted%20image%2020260201123041.png)
 		- Step 2: Compare ranks. THIS APPLIES TO ANY AND ALL MATRIX SIZES
-			-   ![[Pasted image 20260201123137.png]]
+			-   ![Local picture](../Media/Pasted%20image%2020260201123137.png)
 	- Usual case:
 		- Overdefined => No solution $\vec w$
 			- Use least square estimation for m > d
 				- X is a tall vector and overdefined
 				- Try to minimize $$||X\vec w - \vec y||^2$$
-				- ![[Pasted image 20260201123550.png]]
+				- ![Local picture](../Media/Pasted%20image%2020260201123550.png)
 		- Underdefined => Infinite solutions $\vec w$
 			- Use least norm solution for m < d 
 				- X is a fat  vector and underdefined
 				- There a infinitely many solutions. The "Least Norm" solution is the solution that has the smallest possible length
-				-![[Pasted image 20260201123651.png]]
+				-![Local picture](../Media/Pasted%20image%2020260201123651.png)
 	- **y_pred = W_l * w*
 	- Solutions of LES
 
-![[Pasted image 20260211094947.png]]
+![Local picture](../Media/Pasted%20image%2020260211094947.png)
 det MAY be 0!
 
 
@@ -318,13 +318,13 @@ det MAY be 0!
 
 ## Differentiation of Vectors and Matrices
 If f(x) is a scalar function
-![[Pasted image 20260308114810.png|562]]
+![Local picture](../Media/Pasted%20image%2020260308114810.png)
 If f(x) is a vector function
-![[Pasted image 20260308114846.png|577]]
+![Local picture](../Media/Pasted%20image%2020260308114846.png)
 
-![[Pasted image 20260308114936.png|358]]
+![Local picture](../Media/Pasted%20image%2020260308114936.png)
 Common rules for vector-matrix differentiation
-- ![[Pasted image 20260308115019.png|174]] 
+- ![Local picture](../Media/Pasted%20image%2020260308115019.png) 
 ## Ridge Regularization and Regression
 
 
@@ -343,24 +343,24 @@ Ridge regression is easily extended to multi-target (or multi-output) problems. 
 	- Bias is learnt automatically during training
 	- Does not change linearity
 - Objective of linear regression:
-	- ![[Pasted image 20260308134226.png|254]]
+	- ![Local picture](../Media/Pasted%20image%2020260308134226.png)
 - Lost function:
 	- measures error for a single data point
 	- $L_i = (\hat{y_i} - y_i)^2$ => Square error loss
 	- There are different loss functions that can be used
 - Cost function: 
-	- AVERAGE of all individual losses = sum of all lost functions, divided by the number of points![[Pasted image 20260308134412.png|317]]
+	- AVERAGE of all individual losses = sum of all lost functions, divided by the number of points![Local picture](../Media/Pasted%20image%2020260308134412.png)
 	- MINIMIZE THIS cost function
 Loss function is for a single training sample, cost function is the average across all training samples
 
-![[Pasted image 20260308134507.png|461]]
+![Local picture](../Media/Pasted%20image%2020260308134507.png)
 
 
 **Remember: X is the data, w is the weight, Y is the prediction**
-![[Pasted image 20260308135213.png]]
+![Local picture](../Media/Pasted%20image%2020260308135213.png)
 
 - Linear regression with multiple outputs
-	- ![[Pasted image 20260308134825.png|476]]
+	- ![Local picture](../Media/Pasted%20image%2020260308134825.png)
 
 
 
@@ -368,15 +368,15 @@ Loss function is for a single training sample, cost function is the average acro
 
 - Binary classification
 	- Suppose there are two classes, positive and negative
-	- ![[Pasted image 20260201211508.png|161]]
+	- ![Local picture](../Media/Pasted%20image%2020260201211508.png)
 	- Use dot product to find the similarity and magnitude of similarity
 		- y is true if $xw$ > 0
 		- y is false if $xw$ < 0
 - Multiclass classification
 	- Do one hot encoding
-	- ![[Pasted image 20260201212245.png|167]]
+	- ![Local picture](../Media/Pasted%20image%2020260201212245.png)
 	- Given a new test sample $x_{test}$ we declare the class to be 
-		- ![[Pasted image 20260201212315.png|228]]
+		- ![Local picture](../Media/Pasted%20image%2020260201212315.png)
 
 The column of "1"s is a clever mathematical trick used to include a **bias term** (also known as the y-intercept) while keeping the math clean and simple.
 - One row of x is one data sample
@@ -384,8 +384,8 @@ The column of "1"s is a clever mathematical trick used to include a **bias term*
 - A row of W is the weight for the first feature. The first row is the weight bias
 
 
-![[Pasted image 20260308142612.png]]
-![[Pasted image 20260308142606.png]]
+![Local picture](../Media/Pasted%20image%2020260308142612.png)
+![Local picture](../Media/Pasted%20image%2020260308142606.png)
 
 
 
@@ -394,11 +394,11 @@ The column of "1"s is a clever mathematical trick used to include a **bias term*
 		- For instance XOR
 	- Use nonlinear classifier by taking the products of components
 	- This exponentially increases the number of features but that can be solved using kernels
-![[Pasted image 20260308142850.png|514]]
-![[Pasted image 20260308142842.png|492]]
-![[Pasted image 20260308142914.png|618]]
+![Local picture](../Media/Pasted%20image%2020260308142850.png)
+![Local picture](../Media/Pasted%20image%2020260308142842.png)
+![Local picture](../Media/Pasted%20image%2020260308142914.png)
 
-![[Pasted image 20260308143332.png]]
+![Local picture](../Media/Pasted%20image%2020260308143332.png)
 4 samples = 4 rows
 single feature => d = 1 => 2nd order => d x 2 = 2
 
@@ -416,7 +416,7 @@ Suppose we want to build a single linear regression model with three input featu
 
 
 - Issue: $X^T X$ is not always invertible. By doing regulization, it is ALWAYS invertible for any $\lambda > 0$
-![[Pasted image 20260308142422.png]]
+![Local picture](../Media/Pasted%20image%2020260308142422.png)
 
 *   **Goal:** Minimize Error + Penalty on weights.
 	* Shrinks the regression coefficients by penalizing large weights
@@ -430,32 +430,32 @@ Suppose we want to build a single linear regression model with three input featu
 
 
 
-![[Pasted image 20260308143843.png|385]]
+![Local picture](../Media/Pasted%20image%2020260308143843.png)
 - Suppose m>d (tall vector)
 	- We aim to find a good weight vector $\vec w$ such that $X\vec w$ is close to $\vec y$ 
 	- But it is possible that there are multiple valid $\vec w$ that gives the same error
-		- ![[Pasted image 20260201210827.png|244]]
+		- ![Local picture](../Media/Pasted%20image%2020260201210827.png)
 		- We want to minimize 
-			- ![[Pasted image 20260201210913.png|174]]
+			- ![Local picture](../Media/Pasted%20image%2020260201210913.png)
 	- The aim of ridge regularization is to force $w$ to be small
-		- ![[Pasted image 20260201211031.png|254]]
+		- ![Local picture](../Media/Pasted%20image%2020260201211031.png)
 	- **This stabilizes or robustify the solution as large values of w do not lead to favorable generalization on new test examples**
 - Two methods
 	- Primal vs Dual
 		- Primal focuses on w and finds w. The compleity depends on the number of features d
 		- Dual uses lagrange to rewrite the problem. The complexity depends on the dimension of the label (m)
-	- ![[Pasted image 20260308143832.png|284]]
+	- ![Local picture](../Media/Pasted%20image%2020260308143832.png)
 - Kernel trick
 	- n dimensions? infinite dimensions? No problem, using the kernel trick I do not have to interact with higher dimensions
 		- For instance, the radial basis function which maps to an infinite dimension. Without the kernel trick, it is impossible to store and compute.
 
-![[Pasted image 20260308143903.png|402]]
+![Local picture](../Media/Pasted%20image%2020260308143903.png)
 Same thing for polynomial, just replace $X$ with $P$
-![[Pasted image 20260308143953.png|449]]
+![Local picture](../Media/Pasted%20image%2020260308143953.png)
 
 
 MSE
-![[Pasted image 20260312130226.png]]
+![Local picture](../Media/Pasted%20image%2020260312130226.png)
 ### Metrics
 *   **Accuracy:** Overall correct %.
 *   **Recall (Sensitivity):** Ability to find positive cases (Crucial for medical/COVID).
@@ -469,7 +469,7 @@ MSE
 	- Least squares vs ridge regression
 	- Least square has zero bias **but the variance can be very high**
 	- Ridge regression has bias > 0 but it reduces bias
-	- ![[Pasted image 20260202220955.png|422]]
+	- ![Local picture](../Media/Pasted%20image%2020260202220955.png)
 		- Bias Variance Formula
 	- The bias quantifies the error caused by simplifying assumptions in the model. For example, when we use a linear function to approximate a model which is inherently quadratic, we will suffer some bias.
 	- The variance quantifies how much the estimated solution fluctuates around its mean.
@@ -480,12 +480,12 @@ MSE
 
 #### Examples of Loss functions and regularizers
 - Loss functions and regularizers
-	- ![[Pasted image 20260201214350.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260201214350.png)
 	- The most common is $l_2$ loss which is the least squared
 		- $|y_t - y|^2$
 	- $l_1$ loss
 		- $|y1-y|$
-	- ![[Pasted image 20260202220755.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260202220755.png)
 
 - Gradient descent
 	- Choosing an optimization algorithm given a function $C:\mathbb{R}^d \to \mathbb{R}$ and we would like to find a $w$ that minimizes $C(w)$
@@ -498,7 +498,7 @@ MSE
 		- This is dictated by 'step size'
 		- After walking a distance of $n$, stop and find another direction
 	- After a while, we terminate the walk based on a specific crtieria
-		- ![[Pasted image 20260202221638.png|603]]
+		- ![Local picture](../Media/Pasted%20image%2020260202221638.png)
 
 **LOSS FUNCTION**
 
@@ -548,7 +548,7 @@ As we know, regularization adds a penalty cost to discourage overly complex mode
 - Suppose you have a variable X
 - Bias is the average deviation of all samples from the real mean of X
 - Variance is the degree of spread of all samples about the mean of the samples
-![[Pasted image 20260403062614.png|331]]
+![Local picture](../Media/Pasted%20image%2020260403062614.png)
 
 
 Bias: Measures how far, on average, the model’s predictions are from the true
@@ -558,7 +558,7 @@ value (the center of the target).
 
 Test error = $$Bias^{2}+Variance +Noise$$
 **Variance refers to the variability of prediction models across different training sets**
-![[Pasted image 20260403062955.png|489]]
+![Local picture](../Media/Pasted%20image%2020260403062955.png)
 For example, the above is a graph that plots 4th order and 2nd order polynomials fitted on randomly sampled data generated from a 2nd order polynomial (with noise added). You can see that 2nd Order polynomials have a lower variance because their spread is low. **How is variance calculated here?**
 
 Variance is the expected square deviation of a model's prediction $\hat{f}(x)$ from its average prediction over multiple training sets:
@@ -568,7 +568,7 @@ $$
 
 
 
-![[Pasted image 20260403063157.png]]
+![Local picture](../Media/Pasted%20image%2020260403063157.png)
 
 Loss function: Measures the error for a single training example. It tells us how different the model’s prediction is from the true value for one data point.
 Cost function: The cost function is built from the loss function. It is the average or total loss over the entire training dataset. It summarizes how well the model performs across all training examples.
@@ -581,14 +581,14 @@ Different model function $f$, loss function $L$, regularization $R$ give rise to
 Gradient descent is an optimization method used to iteratively minimize the objective function to obtain the best parameters $w$
 
 Gradient of a function is a vector of partial derivatives
-![[Pasted image 20260403064129.png]]
+![Local picture](../Media/Pasted%20image%2020260403064129.png)
 
 Common stopping/convergence criteria:
 - Maximum number of iterations is reached.
 - The percentage or absolute change in cost is below a threshold.
 - The percentage or absolute change in the parameters w is below a threshold
 The direction and step size to move towards minimizing the cost is given by the product of the learning rate and the gradient
-![[Pasted image 20260403064248.png]]
+![Local picture](../Media/Pasted%20image%2020260403064248.png)
 
 - What if:
 	- Learning rate is too big?
@@ -613,7 +613,7 @@ The direction and step size to move towards minimizing the cost is given by the 
 		- Sigmoid is continuous in the middle too
 	- Differentiable so we can train the model using gradient descent
 	- Gives output that are probabilitistic, giving confidence in predictions rather than hard class labels
-![[Pasted image 20260403065211.png]] 
+![Local picture](../Media/Pasted%20image%2020260403065211.png) 
 
 **Different loss functions also give rise to different ML models**
 - Squared error loss
@@ -635,14 +635,14 @@ The direction and step size to move towards minimizing the cost is given by the 
 - Solutions:
 	- Hinge loss
 	- Exponential loss
-![[Pasted image 20260403065519.png]]
+![Local picture](../Media/Pasted%20image%2020260403065519.png)
 ## Decision Trees
 - Decision tree is a **supervised learning technique** that can be used for both classification and regression problems
 	- It captures complex rules automatically
 	- Works with mixed data types and does not require feature normalization
 	- Easy to interpret with a diagram
 
-![[Pasted image 20260403070137.png]]
+![Local picture](../Media/Pasted%20image%2020260403070137.png)
 Depth, Decision Node, Root Node, Terminal/Leaf Node
 
 
@@ -662,7 +662,7 @@ Depth, Decision Node, Root Node, Terminal/Leaf Node
 		- The plane is divided into regions. Each region has an average value based on the points that are contained within it.
 		- How to split the regions? Split for every feature j and threshold value s
 		- Find feature j and split point s that minimizes MSE
-		- ![[Pasted image 20260203134911.png]]
+		- ![Local picture](../Media/Pasted%20image%2020260203134911.png)
 
 
 To decide HOW to split, we need to first find the node impurity
@@ -673,29 +673,29 @@ There are three ways to measure impurity:
 - Entropy
 - Misclassification rate
 
-![[Pasted image 20260403113110.png]]
+![Local picture](../Media/Pasted%20image%2020260403113110.png)
 
 
 **Gini impurity tells us how mixed up the classes are. A low score means most items are the same class. A high score means most items are jumbled together**
 
-![[Pasted image 20260403113327.png]]
+![Local picture](../Media/Pasted%20image%2020260403113327.png)
 
 Note how the overall Gini uses the weighted sum (much like expected value).
 
 
 **Entropy is a similar story. A low score means most items are the same class. A high score means most items are jumbled together**
-![[Pasted image 20260403113423.png]]
+![Local picture](../Media/Pasted%20image%2020260403113423.png)
 
 Misclassification rate is the same again. Low value = mostly the same class. High value = Many classes mixed up
-![[Pasted image 20260403113454.png]]
-![[Pasted image 20260403113509.png]]
+![Local picture](../Media/Pasted%20image%2020260403113454.png)
+![Local picture](../Media/Pasted%20image%2020260403113509.png)
 
 
 ### Building a Classification Tree
 - Objective: Low complexity (small depth value/fewer nodes), good performance (high classification accuracy)
 
 **Greedy Solution: This generates a near-optimal tree in a reasonable amount of time. Greedy means that the model makes the locally optimal choice at each step without considering future splits.**
-![[Pasted image 20260403113745.png|465]]
+![Local picture](../Media/Pasted%20image%2020260403113745.png)
 
 
 ### Building a Regression Tree
@@ -706,19 +706,19 @@ The key operation for regression tree is that at each split, we select **a featu
 
 - Predicted Value = Average of samples in the leaf node
 - Predicted error = mean squared error (MSE)
-![[Pasted image 20260403114118.png|474]]
+![Local picture](../Media/Pasted%20image%2020260403114118.png)
 Explanation: We are looking at the `dosage` feature. We plot a graph of MSE based on the threshold of the dosage and how it affects the value of MSE given the data. Then we find the threshold with the lowest MSE
 
 Now repeat this for all features.
 
 Here's a more detailed calculation
-![[Pasted image 20260403114345.png]]
+![Local picture](../Media/Pasted%20image%2020260403114345.png)
 **Note how the average conditional MSE is calculated using weighted sum**
 
 
 
 Classification vs Regression Tree TLDR
-![[Pasted image 20260403114519.png]]
+![Local picture](../Media/Pasted%20image%2020260403114519.png)
 
 
 
@@ -749,14 +749,14 @@ If you have an original dataset with `N` samples, you create a perturbed trainin
 - **With Replacement:** This is the key. Because you sample with replacement, some rows from the original data will appear multiple times in a perturbed set, and some rows will not appear at all.
 - **The Math:** On average, each perturbed training set contains about **63.2%** of the unique original data points. The remaining ~36.8% are duplicates.
 
-![[Pasted image 20260403115236.png|477]]
+![Local picture](../Media/Pasted%20image%2020260403115236.png)
 
 
 ### Random Forests
 Bootstrapped dataset is the same size as original dataset
 Bootstrapped dataset might contain repeated samples
 Bootstrapped dataset might not contain some samples from original dataset
-![[Pasted image 20260403115329.png|406]]
+![Local picture](../Media/Pasted%20image%2020260403115329.png)
 
 
 What is a random forest for? Reduce overfitting and improve prediction accuracy of a single decision tree by combining many trees
@@ -767,7 +767,7 @@ What is a random forest for? Reduce overfitting and improve prediction accuracy 
 	- Classification: Take the majority vote
 	- Regression: Take the average
 
-![[Pasted image 20260403115524.png]]
+![Local picture](../Media/Pasted%20image%2020260403115524.png)
 
 
 - What if the decision tree is trash?
@@ -786,7 +786,7 @@ What is a random forest for? Reduce overfitting and improve prediction accuracy 
 - Shannon Entropy
 	- It is the 'amount of information' in a variable
 		- Shannon entropy is defined as the average rate at which information is produced by a stochastic source of data
-		- Imagine several buckets of red and blue balls. ![[Pasted image 20260203134159.png]]
+		- Imagine several buckets of red and blue balls. ![Local picture](../Media/Pasted%20image%2020260203134159.png)
 		- The first bucket guarantees that you will be able to pick out a red ball. Bucket 1 thus gives us the most amount of information because we know if we pick from it, we are guaranteed to get a red ball. This is HIGH knowledge
 		- High knowledge = low entropy
 			- If molecules have many possible rearrangements, then the system has high entropy, and if they have very few rearrangements, then the system has low entropy.
@@ -795,7 +795,7 @@ What is a random forest for? Reduce overfitting and improve prediction accuracy 
 			- Clearly, for bucket 1, the probability of this occurring is 1
 			- A higher value shows higher predictability, thus 'knowledge' and lower 'entropy'
 			- To build the entropy formula you want to do the OPPOSITE
-		- ![[Pasted image 20260203134443.png]]
+		- ![Local picture](../Media/Pasted%20image%2020260203134443.png)
 - **The tree must be:**
 	- Limited in depth
 	- Not all leaf nodes must be a pure node
@@ -822,7 +822,7 @@ What is a random forest for? Reduce overfitting and improve prediction accuracy 
 	- Compare ALL MSE and pick the hyperparameter with the lowest average error
 
 
-![[Pasted image 20260403205022.png]]
+![Local picture](../Media/Pasted%20image%2020260403205022.png)
 
 **But if we are not choosing parameters or model type, we can just segment into training and test data. No validation and k-fold needed.**
 ### Evaluation metrics
@@ -830,7 +830,7 @@ What is a random forest for? Reduce overfitting and improve prediction accuracy 
 	- Mean square error
 	- Mean Absolute Error
 - Classification
-![[Pasted image 20260403205305.png|500]]
+![Local picture](../Media/Pasted%20image%2020260403205305.png)
 
 Recall = TP / TP+FN
 Accuracy = TP+TN / Total
@@ -839,7 +839,7 @@ Precision = TP / TP + FP
 It is important to look at all these metrics because sometimes a metric can be high (like accuracy) but it does not show the whole picture.
 
 **Cost Matrix**
-![[Pasted image 20260403205412.png]]
+![Local picture](../Media/Pasted%20image%2020260403205412.png)
 
 - Based on the scenario and data, we can manually assert that $C_{p,n} > , <, =, C_{n,p}$
 	- For example, when developing a self-driving car system
@@ -856,7 +856,7 @@ It is important to look at all these metrics because sometimes a metric can be h
 	- TPR = True Positive / Total Positives
 	- FPR = False Positive (Mistake) / Total Negatives
 	- We use TPR and FPR as the axis
-		- ![[Pasted image 20260203141916.png]]
+		- ![Local picture](../Media/Pasted%20image%2020260203141916.png)
 	- How an ROC curve is build
 		- The model gives all samples a score. In this case, the probability of being positive. Sort all the samples
 		- Start from infinite threshold value t. This is at (0,0) on the graph above. The model classifies nothing as positive. The range is 0<TPR<1 and 0<FPR<1
@@ -877,8 +877,8 @@ It is important to look at all these metrics because sometimes a metric can be h
 	- For each point, calculate the distance from the data point $x_i$ to the centroid $c_i$
 	- Move the $c_i$ centroid to the new center by using an equation
 	- **Cost function in K mean cannot increase. It is either stuck at the local or global minimum**
-	- ![[Pasted image 20260203142416.png]]
-![[Pasted image 20260430064750.png]]
+	- ![Local picture](../Media/Pasted%20image%2020260203142416.png)
+![Local picture](../Media/Pasted%20image%2020260430064750.png)
 
 - k means clustering has an interesting property which is that the total loss is guaranteed not to increase. The new centroid is guaranteed to give a smaller value (if not equal which would mean no change in centroid)
 
@@ -908,24 +908,24 @@ Hard clustering vs soft clustering
     *   The closer a point is to a centroid, the higher its membership weight for that cluster.
     *   The "fuzzifier" ($m$, usually set to 2) determines how much overlap is allowed. If $m=1$, it turns back into hard K-means.
 4.  **Repeat** until the weights stop changing significantly.
-![[Pasted image 20260430064848.png]]
+![Local picture](../Media/Pasted%20image%2020260430064848.png)
 
 new centroid for group 1 = sum of all values under group 1 / number of values 
 
 
 ## Neural Networks
 
-![[Pasted image 20260403212012.png]]
+![Local picture](../Media/Pasted%20image%2020260403212012.png)
 
 
 - Matrix version of chain rule
-	- ![[Pasted image 20260203142506.png]]
-	- ![[Pasted image 20260203142615.png|300]]
+	- ![Local picture](../Media/Pasted%20image%2020260203142506.png)
+	- ![Local picture](../Media/Pasted%20image%2020260203142615.png)
 	- 
-	- ![[Pasted image 20260203142620.png|200]]
+	- ![Local picture](../Media/Pasted%20image%2020260203142620.png)
 
 
-![[Pasted image 20260403212055.png]]
+![Local picture](../Media/Pasted%20image%2020260403212055.png)
 
 - Relu derivative
 	- Relu: $f(x)=max(0,x)$
@@ -947,7 +947,7 @@ new centroid for group 1 = sum of all values under group 1 / number of values
 	- ReLu
 		- Standard, sandwiched between each function
 		- ReLu makes neural networks able to comprehend non-linear relations
-		- ![[Pasted image 20260202223341.png]]
+		- ![Local picture](../Media/Pasted%20image%2020260202223341.png)
 	- Last function
 		- Based on the task
 			- Yes/No : Sigmoid
@@ -966,14 +966,14 @@ new centroid for group 1 = sum of all values under group 1 / number of values
 		- To estimate compute network responses
 		- To predict the output labels given novel inputs
 
-![[Pasted image 20260403212151.png]]
+![Local picture](../Media/Pasted%20image%2020260403212151.png)
 
 ### Convolutional Neural Network
 - A special type of feed forward network that significantly reduces the number of parameters in a deep neural network
 - CNN is often used in image processing
 - Works in a sliding window manner
 	- Share the same parameter but across different locations
-![[Pasted image 20260403212545.png]]
+![Local picture](../Media/Pasted%20image%2020260403212545.png)
 # Code
 For your Jupyter Notebook, having a quick reference for the `numpy.linalg` module is essential. I have categorized them by how you will likely use them in Machine Learning and Linear Algebra workflows.
 
@@ -1069,7 +1069,7 @@ Therefore, the resulting matrix of partial derivatives is indeed a **$2 \times 3
 
 # Tutorial 8 Gradient Descent shit
 Notes:
-- `loss_deriv = 4 * (f - y)**3 # CHANGE ME` => This is the loss function![[Pasted image 20260318152124.png]]
+- `loss_deriv = 4 * (f - y)**3 # CHANGE ME` => This is the loss function![Local picture](../Media/Pasted%20image%2020260318152124.png)
 
 ```python
 import numpy as np
@@ -1137,7 +1137,7 @@ The polynomial model can approximate any continuous real-valued function on a cl
 
 
 
-![[Pasted image 20260430010541.png]]
+![Local picture](../Media/Pasted%20image%2020260430010541.png)
 **which code to use**
 
 
@@ -1281,8 +1281,8 @@ NOTE THAT IT IS - step * gradient
 
 
 
-![[Pasted image 20260430034810.png]]
+![Local picture](../Media/Pasted%20image%2020260430034810.png)
 
 
 
-![[Pasted image 20260430063923.png]]
+![Local picture](../Media/Pasted%20image%2020260430063923.png)

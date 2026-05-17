@@ -1,6 +1,6 @@
-![[Pasted image 20250818114856.png]]
+![Local picture](../Media/Pasted%20image%2020250818114856.png)
 
-![[Pasted image 20250820144600.png]]
+![Local picture](../Media/Pasted%20image%2020250820144600.png)
 
 ### Radix
 the base of a system of [numeration](https://www.google.com/search?client=ubuntu-sn&hs=Ds1&sca_esv=fa8e374c3da64ae1&channel=fs&sxsrf=AE3TifOQl5xoPGCLqZrmGvq1aVnmH6b4uA:1755671580131&q=numeration&si=AMgyJEt_i95eqLH3KOj-Ut-VGJJ7JvFTgi0QzrjfdmyzUpEnsogcdYq1Q8n7tYiY6g3a4xY2AYuogSU6-v7ujyNThIvwHpU4c6jRLl5aSBNMTxBJaLgUkiE%3D&expnd=1&sa=X&ved=2ahUKEwiT5oCn4piPAxUz3TgGHcHXIJ0QyecJegQINBAS).
@@ -10,7 +10,7 @@ the base of a system of [numeration](https://www.google.com/search?client=ubuntu
 - hexadecimal (r=16)
 - binary (r=2)
 
-![[Pasted image 20250818115203.png]]
+![Local picture](../Media/Pasted%20image%2020250818115203.png)
 The notation is always 
 
 $$(A)_2,(A)_{16},(A)_{10},etc$$
@@ -38,7 +38,7 @@ Let's start from this.
 $$6315_{10} \Rightarrow(18AB)_{16}$$
 
 Make a table
-![[Pasted image 20250911133759.png]]
+![Local picture](../Media/Pasted%20image%2020250911133759.png)
 
 | Number  | Quotient | Remainder | Remainder in Radix |
 | ------- | -------- | --------- | ------------------ |
@@ -54,13 +54,13 @@ Binary is the simplest and the bridging for hex and oct.
 **Hex <--> Binary**
 - Each hex is 4 bits
 
-![[Pasted image 20250820144529.png]]
+![Local picture](../Media/Pasted%20image%2020250820144529.png)
 **Oct <--> Binary**
 
-![[Pasted image 20250820144545.png]]
+![Local picture](../Media/Pasted%20image%2020250820144545.png)
 **Oct <--> Hex**
 Write it out in binary and then group, adding zeros **in front**
-![[Pasted image 20250820144639.png]]
+![Local picture](../Media/Pasted%20image%2020250820144639.png)
 
 
 
@@ -80,7 +80,7 @@ For instance: 1+1+1 = 1 (1 carry over)
 1 x 1 = 0
 
 From this, use the same rules as decimal system (shift and add)
-![[Pasted image 20250820144942.png]]
+![Local picture](../Media/Pasted%20image%2020250820144942.png)
 
 #### Subtraction
 0 - 0 = 0
@@ -90,7 +90,7 @@ From this, use the same rules as decimal system (shift and add)
 
 #### Division
 
-![[Pasted image 20250820145113.png]]
+![Local picture](../Media/Pasted%20image%2020250820145113.png)
 
 
 
@@ -122,15 +122,15 @@ In **1's complement**, when you add two numbers, if a carry is generated from th
 - **1's Complement Range:** For an 8-bit number, the range is -127 (10000000) to +127 (01111111).
     
 - **2's Complement Range:** For an 8-bit number, the range is -128 (10000000) to +127 (01111111).
-![[Pasted image 20250820155014.png]]
+![Local picture](../Media/Pasted%20image%2020250820155014.png)
 
 
 
-![[Pasted image 20250820155032.png]] 
+![Local picture](../Media/Pasted%20image%2020250820155032.png) 
 
 
 
-![[Pasted image 20250820155444.png]]
+![Local picture](../Media/Pasted%20image%2020250820155444.png)
 additional stuff:
 $$AB+\overline{A}C+BC=AB+\overline{A}C$$
 $$(A+B)(\overline{A}+C)(B+C)=(A+B)(\overline{A}+C)$$
@@ -143,14 +143,14 @@ $$$$
 
 
 
-![[Pasted image 20250820155450.png]]
+![Local picture](../Media/Pasted%20image%2020250820155450.png)
 
 
-![[Pasted image 20250820155531.png]]
+![Local picture](../Media/Pasted%20image%2020250820155531.png)
 
 
 
-![[Pasted image 20250820155547.png]]
+![Local picture](../Media/Pasted%20image%2020250820155547.png)
 
 
 Product = AND
@@ -194,31 +194,31 @@ $\overline{\times}=+$
 
 
 ### Converting Truth table to Sum of Products
-![[Pasted image 20250821114627.png]]
+![Local picture](../Media/Pasted%20image%2020250821114627.png)
 
 Why is this useful?
 It is useful to generate a custom F function that is specifically **true** for certain A,B and C values. (More useful for true in my opinion)
 
-![[Pasted image 20250821114743.png]]
+![Local picture](../Media/Pasted%20image%2020250821114743.png)
 
 The same concept as above. It is useful to generate a function F that produces a false value under certain A,B,C conditions
 
 
 ### Reversing the process: from SOP/POS to truth table
 Simply do the reverse. List out the minterms and maxterms that we want to be 1/0 and fill in the rest as 0/1
-![[Pasted image 20250821114956.png]]
+![Local picture](../Media/Pasted%20image%2020250821114956.png)
 
 
 
 
-![[Pasted image 20250821115133.png]]
+![Local picture](../Media/Pasted%20image%2020250821115133.png)
 
 Both the Sum of Products (SOP) form and the Product of Sums (POS) form are just different ways of writing an expression for the **exact same function**. Therefore, they must produce the identical output column in a truth table.
 However, they simply focus on different things. SOP focuses on answering when is this true (1). POS focuses on answering when is this false (0).
 
 
 
-![[Pasted image 20250821115318.png]]
+![Local picture](../Media/Pasted%20image%2020250821115318.png)
 
 
 
@@ -233,8 +233,8 @@ However, they simply focus on different things. SOP focuses on answering when is
 
 
 
-![[Pasted image 20250821115715.png]]
-![[Pasted image 20250821120128.png]]
+![Local picture](../Media/Pasted%20image%2020250821115715.png)
+![Local picture](../Media/Pasted%20image%2020250821120128.png)
 NOT/Exclusively AND
 NOT/Exclusively OR
 
@@ -272,23 +272,23 @@ endmodule
 ```
 
 
-![[Pasted image 20250821120306.png]]
+![Local picture](../Media/Pasted%20image%2020250821120306.png)
 
 Simplify before gate-level implementation. Fewer gates = faster!
-![[Pasted image 20250821120424.png]]
+![Local picture](../Media/Pasted%20image%2020250821120424.png)
 
 
 
 
-![[Pasted image 20250821120540.png]]
+![Local picture](../Media/Pasted%20image%2020250821120540.png)
 
 
 #### Bubble Pushing
-![[Pasted image 20250821120616.png]]
+![Local picture](../Media/Pasted%20image%2020250821120616.png)
 - Create two bubbles and push
 - Bubbles at input of gates can be pushed and transforms the gate
 
-![[Pasted image 20250821120830.png]]
+![Local picture](../Media/Pasted%20image%2020250821120830.png)
 Note how the bubbles are placed at step 2. This is to indicate complement ($\overline{A}$).
 Then add bubbles and shift around.
 
@@ -324,7 +324,7 @@ value until changed again
 **parameter**
 use for constants
 
-![[Pasted image 20250826210147.png|300]]
+![Local picture](../Media/Pasted%20image%2020250826210147.png)
 
 **reg**: This is the most common variable type and is used to represent data storage elements
 Despite its name, a reg does not always synthesize to a physical register; it can also represent combinational logic depending on how it's used in the code.
@@ -345,7 +345,7 @@ Despite its name, a reg does not always synthesize to a physical register; it ca
 
 Two assignment types: blocking vs non-blocking
 
-![[Pasted image 20250826210925.png]]
+![Local picture](../Media/Pasted%20image%2020250826210925.png)
 
 Statements within always block are executed sequentially
 
@@ -354,18 +354,18 @@ Multiple always blocks run concurrently
 
 
 **if-else**
-![[Pasted image 20250826211354.png]]
+![Local picture](../Media/Pasted%20image%2020250826211354.png)
 **case**
 
-![[Pasted image 20250826211347.png]]
+![Local picture](../Media/Pasted%20image%2020250826211347.png)
 
 
 
 **these two are the same:**
-![[Pasted image 20250826211420.png]]
+![Local picture](../Media/Pasted%20image%2020250826211420.png)
 
 
-![[Pasted image 20250826211739.png]]![[Pasted image 20250826211841.png]]
+![Local picture](../Media/Pasted%20image%2020250826211739.png)![Local picture](../Media/Pasted%20image%2020250826211841.png)
 ```
 // SOME FUNCTIONS
 and
@@ -379,7 +379,7 @@ xor
 
 **port connection**
 The dot (.) is used for a syntax called **named port connection** (or named port mapping).
-![[Pasted image 20250826212130.png]]
+![Local picture](../Media/Pasted%20image%2020250826212130.png)
 It is the equivalent of `function(arg=...)`
 
 ```verilog
@@ -408,7 +408,7 @@ Sequential logic circuits => The output depends on both the current state and th
 There are two types 
 
 SR FF can store one bit of information - true or false
-![[Pasted image 20250911120001.png]]NOR gate, if **any** of its inputs is 1, the output is 0. Only if **all** inputs are 0 is the output 1.
+![Local picture](../Media/Pasted%20image%2020250911120001.png)NOR gate, if **any** of its inputs is 1, the output is 0. Only if **all** inputs are 0 is the output 1.
 The **single most important rule for Q and Q' is that they must always be logical opposites** of each other. **it really only works when you do this. When tracing, set Q as 1/0 and then Q' as 0/1 and trace from there**
 - If **Q = 1**, then **Q' must = 0**.
     
@@ -423,7 +423,7 @@ When we talk about the "state" of a flip-flop, we are referring to the value of 
 
 
 
-![[Pasted image 20250914090742.png]]
+![Local picture](../Media/Pasted%20image%2020250914090742.png)
 The output **Q flips** (or toggles) its state.
 
 A T flip-flop is a "Toggle" flip-flop. Its behavior, as shown in the truth table, is:
@@ -431,14 +431,14 @@ A T flip-flop is a "Toggle" flip-flop. Its behavior, as shown in the truth table
 - If the input **T = 0** when the active clock edge arrives, the output **Q holds** its current value (no change).
     
 - If the input **T = 1** when the active clock edge arrives, the output **Q flips** to the opposite of its current value (it toggles).
-![[Pasted image 20250911123814.png]]
+![Local picture](../Media/Pasted%20image%2020250911123814.png)
 
 - Clock input controls when circuit reads input/changes outputs
 - Synchronous circuits only respond at transitions
 	- Low -> High
-	- High -> Low![[Pasted image 20250911125049.png|300]]
+	- High -> Low![Local picture](../Media/Pasted%20image%2020250911125049.png)
 
-![[Pasted image 20250911125638.png]]
+![Local picture](../Media/Pasted%20image%2020250911125638.png)
 The maximum clock frequency is determined by the minimum time required for one complete clock cycle. Let's trace the signal path in a simple synchronous system, like a chain of flip-flops, which is the typical use case that limits clock speed.
 **Minimum Clock Period (T) = Propagation Delay (tp) + Setup Time (tsetup)**
 
@@ -452,11 +452,11 @@ module dff( input d, clk, output reg q);
 		end
 endmodule
 ```
-![[Pasted image 20250911125831.png]]
+![Local picture](../Media/Pasted%20image%2020250911125831.png)
 Note the up array for posedge and down arrow for negedge
 posedge catches 0 ->1 change
 negedge catches 1 -> 0 change
-![[Pasted image 20250911124029.png]]
+![Local picture](../Media/Pasted%20image%2020250911124029.png)
 You can imagine the usefulness of deferred assignment. It ensures that calculations are finished completely before committing the change in values. This prevents the values of x and y from affecting the circuit's behavior.
 
 
@@ -481,7 +481,7 @@ Asynchronous : Circuit elements do not get the clock input simultaneously
 Synchronous Counters: Circuit elements get the clock input simultaneously
 The 4-bit counter counts from 0000 (0) → 1111(15) -> 16 distinct count states ⇒ called a mod-16 counter
 **limiting frequency**
-![[Pasted image 20250911131502.png]]
+![Local picture](../Media/Pasted%20image%2020250911131502.png)
 ```
 module mod8( input clk,
 	output reg [2:0] q);
@@ -507,13 +507,13 @@ The T flip-flop, or "toggle" flip-flop, has a single 'T' (toggle) input.[5][6] I
 
 
 **Converting from decimal to x base**
-![[Pasted image 20250911141106.png|400]]
+![Local picture](../Media/Pasted%20image%2020250911141106.png)
 **Converting from x to decimal**
-![[Pasted image 20250911141325.png]]
+![Local picture](../Media/Pasted%20image%2020250911141325.png)
 **Converting from x to y**
 - Use binary as intermediary step. Oct = 3 bits. Hex = 4 bits. Group, convert, group.
 **Unknown base**
-![[Pasted image 20250911134939.png|300]]
+![Local picture](../Media/Pasted%20image%2020250911134939.png)
 ****
 0 – represents a positive number
 1 – represents a negative number
@@ -551,7 +551,7 @@ Maxterm
 Example: A+B+C
 ****
 - Bubble pushing for logic gates: Pairs of bubbles can be created anywhere. Bubbles represent complements
-![[Pasted image 20250911141851.png]]
+![Local picture](../Media/Pasted%20image%2020250911141851.png)
 
 ****
 # Verilog
@@ -567,7 +567,7 @@ value until changed again
 	- X[7:0]
 - Concatenation
 	- {X[3:0] , X[4:6]}
-![[Pasted image 20250911135230.png]]
+![Local picture](../Media/Pasted%20image%2020250911135230.png)
 
 
 - by default passing an output is always a wire with the exception of when the output is being passed through an always block

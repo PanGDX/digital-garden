@@ -80,14 +80,14 @@ int f(int n) {
 #### Big O
 • Pick the highest degree/order term
 • Stripped all the coefficients
-![[Pasted image 20250129173537.png|500]]
+![Local picture](../Media/Pasted%20image%2020250129173537.png)
 
 Loops
 • cost = (# iterations)x(max cost of one iteration)
 
 **For binary search:**
 
-![[Pasted image 20250129173708.png]]
+![Local picture](../Media/Pasted%20image%2020250129173708.png)
 
 
 
@@ -113,7 +113,7 @@ FindPeak(A, n)
 ```
 
 ##### 2D Peak Finding
-![[Pasted image 20250207115711.png]]
+![Local picture](../Media/Pasted%20image%2020250207115711.png)
 Calculate in the middle
 9 10 12
 
@@ -124,7 +124,7 @@ It will find a LOCAL 2D Peak.
 
 
 
-![[Pasted image 20250208133729.png]]
+![Local picture](../Media/Pasted%20image%2020250208133729.png)
 ADT is the 'framework'
 
 Interface: How others communicate with it
@@ -149,7 +149,7 @@ First In, First Out
 Either Side In, Either Side Out
 
 
-![[Pasted image 20250129171024.png]]
+![Local picture](../Media/Pasted%20image%2020250129171024.png)
 
 A basic datastructure that to deal with variable data sizes. 
 During runtime, size of the data will change (increase or decrease). Using malloc, calloc is very suboptimal. 
@@ -721,7 +721,7 @@ int main() {
 		- `right_ptr` will stop when it finds an element lower than the first element
 		- Then it will swap
 		- When `left_ptr` == `right_ptr` -> swap first element with position `left_ptr - 1`
-![[Pasted image 20250207153436.png|300]]![[Pasted image 20250207153658.png|300]]
+![Local picture](../Media/Pasted%20image%2020250207153436.png)![Local picture](../Media/Pasted%20image%2020250207153658.png)
 **Do not use when nearly sorted/sorted**
 If QuickSort is implemented with a **deterministic pivot selection strategy**, such as always picking:
 
@@ -784,7 +784,7 @@ void swap(T& s1, T& s2)
 ```
 
 
-![[Pasted image 20250207203909.png]]
+![Local picture](../Media/Pasted%20image%2020250207203909.png)
 
 
 AVL Tree with successor and predecessor functions
@@ -837,7 +837,7 @@ Time complexity for each operation = O(log n)
 
 A **binary search tree (BST)** does **not guarantee** O(log⁡N)O(\log N)O(logN) search time unless it is **balanced**.
 
-![[Pasted image 20250226175613.png]]
+![Local picture](../Media/Pasted%20image%2020250226175613.png)
 #### Traversal
 - In Order
 	- Left -> Root -> Right
@@ -861,14 +861,14 @@ while(q is not empty){
 }
 ```
 
-![[Pasted image 20250226162634.png|200]]![[Pasted image 20250226162658.png|200]]![[Pasted image 20250226162708.png|200]]
-![[Pasted image 20250226162714.png|200]]
+![Local picture](../Media/Pasted%20image%2020250226162634.png)![Local picture](../Media/Pasted%20image%2020250226162658.png)![Local picture](../Media/Pasted%20image%2020250226162708.png)
+![Local picture](../Media/Pasted%20image%2020250226162714.png)
 
 
 
 BST - Binary Search Tree.
 Left child contain values that are less than parent node. Right child contain values that are more than parent node. Insertion, searching and deletion are efficient - O(logN) when implemented properly
-![[Pasted image 20250207155236.png|100]]
+![Local picture](../Media/Pasted%20image%2020250207155236.png)
 
 
 ### Deleting Nodes
@@ -903,29 +903,29 @@ Without balancing, h can be very high because the tree can be a list
 ### Setup:
 - Augment the node
 	- This means storing the height for each node
-		- ![[Pasted image 20250207160048.png|200]]
+		- ![Local picture](../Media/Pasted%20image%2020250207160048.png)
 - Define what is 'balanced'
 	- `abs(v.left.height - v.right.height) <= 1`
 
 Note that balancing is not only done for the top node, but EVERY node. For instance here, the node that is out of balance is '29' and '20'
-![[Pasted image 20250207160210.png|200]]
+![Local picture](../Media/Pasted%20image%2020250207160210.png)
 
 
 ### Rotation
 
 **Note how balance is not about the NUMBER of nodes, but the height**
-![[Pasted image 20250207200442.png|300]]
+![Local picture](../Media/Pasted%20image%2020250207200442.png)
 Use this type of calculation
 
 - Left-rotate -> The root node moves to the left
 	- Requires a right child
 	- Right child moves up, root node moves down
 	- The left child node of the right child node of the root node is moved to the be the right of the new child node
-![[Pasted image 20250207200727.png|200]]
+![Local picture](../Media/Pasted%20image%2020250207200727.png)
 - Right-rotate -> The root node moves to the right
 	- Requires a left child
 	- Same idea: right child node of the right child node of the root node is to be the left child node of the shifted root node 
-![[Pasted image 20250207200936.png]]
+![Local picture](../Media/Pasted%20image%2020250207200936.png)
 For instance, 29 -> 32 -> 37 above
 The use left-rotate because 32 is a right child of 29.
 It then becomes 29 <- 32 -> 37
@@ -962,7 +962,7 @@ If v is right-heavy (MUST BE UNBALANCED):
 #### Deleting with balancing
 - From the deleted node, walk up and check balance
 
-![[Pasted image 20250226180856.png]]
+![Local picture](../Media/Pasted%20image%2020250226180856.png)
 
 ### Hashing
 Create a table using an array. Have a hash function. Store (A , B) key-value pair in the array. Location is decided using the hash function
@@ -986,7 +986,7 @@ Create a table using an array. Have a hash function. Store (A , B) key-value pai
 	- Deleting requires search
 	- Searching requires going through the entire linked list. Worst case, O(N)
 BUT LETS ASSUME THAT EACH HASH VALUE HAS THE SAME PROBABILITY OF BEING HASHED TO BECAUSE WE WANT TO MAINTAIN SANITY.
-![[Pasted image 20250207205014.png]]
+![Local picture](../Media/Pasted%20image%2020250207205014.png)
 
 
 #### Using Good Hash Functions
@@ -995,7 +995,7 @@ BUT LETS ASSUME THAT EACH HASH VALUE HAS THE SAME PROBABILITY OF BEING HASHED TO
 
 $h(k)=k \mod m$ 
 Use m values that are prime numbers
-![[Pasted image 20250207205315.png]]
+![Local picture](../Media/Pasted%20image%2020250207205315.png)
 Issue: Division is slow
 
 
@@ -1047,13 +1047,13 @@ A priority queue can be implemented with sorted or unsorted arrays too. However,
 
 Instead, we use a binary heap that stores items in a tree.
 This is an example of a minimum heap. The minimum element is at the top.
-![[Pasted image 20250226161241.png| 200]]
+![Local picture](../Media/Pasted%20image%2020250226161241.png)
 
 This reduces the insertion to O(logN) and extraction to O(logN).
 This is because a heap must be a completed binary tree, with the SOLE exception of the last level. This results in height of O(logN)
 Additionally, the parent must have a higher priority (larger or smaller) than the child. 
 
-![[Pasted image 20250209170011.png|300]]
+![Local picture](../Media/Pasted%20image%2020250209170011.png)
 
 It is important to note that the value of left and right child with respect to each other DOES NOT matter here unlike AVL. Left side does not have to be bigger than right or vice-versa. The main comparison is to the parent instead. Because of this, we don't need to do rotation (YAY)
 
@@ -1114,10 +1114,10 @@ Heap array -> Sorted list: O(n log n)
 - Deterministic - always NlogN
 - Unstable
 
-![[Pasted image 20250226162428.png]]
+![Local picture](../Media/Pasted%20image%2020250226162428.png)
 
 
-![[Pasted image 20250226160949.png|300]]
+![Local picture](../Media/Pasted%20image%2020250226160949.png)
 
 TLDR:
 In implementation, if possible we should do weighted-union with path compression. However, in reality, that is sometimes hard(er) to implement. Path compression is very simple. Use path compression :)
@@ -1139,7 +1139,7 @@ Adjacency List:
 
 Degree -> The number of adjacent nodes to the node
 Diameter -> The maximum shortest distance between two nodes
-![[Pasted image 20250225214003.png|300]]
+![Local picture](../Media/Pasted%20image%2020250225214003.png)
 
 Clique -> All nodes are connected to other nodes
 Cycle -> Degree = 2 and diameter = (n/2) or (n/2 - 1)
@@ -1476,18 +1476,18 @@ Kruskal's algorithm
 Boruvka's algorithm
 
 
-![[Pasted image 20250422124447.png]]
+![Local picture](../Media/Pasted%20image%2020250422124447.png)
 
 
 The convex hull of a simple polygon **encloses the given polygon and is partitioned by it into regions, one of which is the polygon itself**. The other regions, bounded by a polygonal chain of the polygon and a single convex hull edge, are called pockets.
 
-![[Pasted image 20250225181435.png]]
+![Local picture](../Media/Pasted%20image%2020250225181435.png)
 
 **Jarvis' March**
 
 Chooes the leftmost node. Imagine a pointer pointing south. Find the node with the least turning angle. This can be imagined using a line and sweeping anticlockwise until a node is hit. Move to that node. Repeat
 
-![[Pasted image 20250225181936.png|300]]
+![Local picture](../Media/Pasted%20image%2020250225181936.png)
 
 Time complexity: O(h x n). where h is the number of hull points (thus h) and n is the number of input nodes. Worst case complexity is O(n * n) when h=n. 
 Complexity is because each time we move to a new hull point, we need to scan all existing nodes. This includes nodes that are already included because in the final step we need to 'close' up the polygon by connecting the hull point h-1 to an existing hull point.
@@ -1500,7 +1500,7 @@ A better description of the last step:
 	At each step, before adding in the next hull point, the algorithm checks whether the last two points added to the convex hull forms a convex corner with the hull point. If they do, pop the last one. Then add in the hull point. 
 
 
-![[Pasted image 20250225182810.png|300]]
+![Local picture](../Media/Pasted%20image%2020250225182810.png)
 Time complexity: O(nlogn)
 Step 1, finding the leftmost node is O(n)
 Step 2, sorting is O(nlogn)
@@ -1520,14 +1520,14 @@ Somehow merge them together
 
 
 Merging is done using the property of two convex polygons: they will have four tangents. We are concerned with two - the top and bottom
-![[Pasted image 20250225184931.png]]
+![Local picture](../Media/Pasted%20image%2020250225184931.png)
 After getting the shape, merge using this idea. Delete the middle section. You have a bigger convex hull now. Repeat.
 
 O(nlogn). 
 **Incremental Method**
 Sort based on a selected direction.
 Add a point sequentially. After adding, check if any points are 'inside'. Remove those points.
-![[Pasted image 20250225184422.png|300]]
+![Local picture](../Media/Pasted%20image%2020250225184422.png)
 
 
 
@@ -1542,7 +1542,7 @@ Repeat
 
 Worst case: O(n^2) 
 Circle!
-![[Pasted image 20250225185552.png]]
+![Local picture](../Media/Pasted%20image%2020250225185552.png)
 
 
 

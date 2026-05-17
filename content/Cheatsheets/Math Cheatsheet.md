@@ -6,8 +6,8 @@ CS1231
 
 
 # Trig Identities
-![[half-angle-formula-using-double-angle-formulas-and-semi-perimeter-1628074781.png|400]]![[Pasted image 20240909170137.png|300]]
-![[Pasted image 20240909170213.png]]
+![Local picture](../Media/half-angle-formula-using-double-angle-formulas-and-semi-perimeter-1628074781.png)![Local picture](../Media/Pasted%20image%2020240909170137.png)
+![Local picture](../Media/Pasted%20image%2020240909170213.png)
 
 
 # Chapter 1
@@ -16,16 +16,16 @@ $f_{xy}=f_{yx}$
 
 
 **Tangent plane**
-![[Pasted image 20240819160622.png|400]]
+![Local picture](../Media/Pasted%20image%2020240819160622.png)
 
 **Chain rule**
-![[Pasted image 20240818195142.png|400]]
+![Local picture](../Media/Pasted%20image%2020240818195142.png)
 
 
 ****
 
 **Directional Derivative**
-![[Pasted image 20240827225721.png|300]]
+![Local picture](../Media/Pasted%20image%2020240827225721.png)
 Maximum $D_{U}f(a,b) = \frac{|\nabla f(a,b)|^2}{|\nabla f(a,b)|}$ = ${|\nabla f(a,b)|}$
 
 
@@ -33,7 +33,7 @@ Maximum $D_{U}f(a,b) = \frac{|\nabla f(a,b)|^2}{|\nabla f(a,b)|}$ = ${|\nabla f(
 We use determinant D
 $D=f_{x x}(a,b)f_{y y}(a,b)-(f_{xy}(a,b))^2$
 
-If $D<0$, it is a saddle point![[Saddle_point 1.svg|200]]
+If $D<0$, it is a saddle point![Local picture](../Media/Saddle_point%201.svg)
 If $D>0$:
 		if $f_{x x}(a,b) > 0$, minimum point
 		if $f_{y y}(a,b) < 0$, maximum point
@@ -53,12 +53,12 @@ $$
 
 
 **Simple domain integration**
-![[Pasted image 20240818203422.png]]
+![Local picture](../Media/Pasted%20image%2020240818203422.png)
 
 
 
 **Domain change**
-![[Pasted image 20240908132020.png|400]]
+![Local picture](../Media/Pasted%20image%2020240908132020.png)
 
 
 **Polar integration**
@@ -72,26 +72,26 @@ $x=a\cos t, y=a\sin t$
 
 
 **Derivative of vector-valued functions**
-![[Pasted image 20240908132127.png]]
-![[Pasted image 20240908132116.png]]
+![Local picture](../Media/Pasted%20image%2020240908132127.png)
+![Local picture](../Media/Pasted%20image%2020240908132116.png)
 We can use this to derive the tangent line at point P
 
 
 **Special vector chain rule**
-![[Pasted image 20240908132310.png]]
+![Local picture](../Media/Pasted%20image%2020240908132310.png)
 
 
 
 
 **Integrating vector-valued functions**
-![[Pasted image 20240908132356.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908132356.png)
 
 
 
 **Arc length**
-![[Pasted image 20240908132420.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908132420.png)
 From this we can derive the case for Cartesian too, using $x=t,y=f(t)$
-![[Pasted image 20240908132511.png|200]]
+![Local picture](../Media/Pasted%20image%2020240908132511.png)
 
 
 **Line integral**
@@ -100,7 +100,7 @@ $$\int f(x,y,z, \dots)\sqrt{ [x'(t)]^{2}+ [y'(t)]^{2}+ [z'(t)]^2 } $$
 
 
 **Parametric surfaces**
-![[Pasted image 20240908132550.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908132550.png)
 
 To find the normal, simply use $r_u$ and $r_v$ and cross-multiply them
 
@@ -110,7 +110,7 @@ To find the normal, simply use $r_u$ and $r_v$ and cross-multiply them
 # Chapter 4
 
 **Vector field definition**
-![[Pasted image 20240908132722.png]]
+![Local picture](../Media/Pasted%20image%2020240908132722.png)
 Unlike normal vectors, a vector field DOES rely on the initial position
 
 An example of this is the gradient field.
@@ -118,16 +118,16 @@ An example of this is the gradient field.
 
 **Line integral of vector fields**
 This is known as work done. We can consider the vector field F to represent a changing force.
-![[Pasted image 20240908132958.png|200]]
+![Local picture](../Media/Pasted%20image%2020240908132958.png)
 We can calculate this work done using:
-![[Pasted image 20240908133013.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908133013.png)
 
 ### MOST IMPORTANT EQUATION 
-![[Pasted image 20240908133100.png|350]]
+![Local picture](../Media/Pasted%20image%2020240908133100.png)
 
 
 **Conservative vector fields**
-![[Pasted image 20240908133213.png|400]]
+![Local picture](../Media/Pasted%20image%2020240908133213.png)
 TLDR: Vector field F is conservative when $\vec F = \nabla f$ and $f$ exists. 
 This means that: For $\vec F = P(x,y)\vec i + Q(x,y)\vec j$, $f_x=P(x,y)$ and $f_y=Q(x,y)$
 
@@ -140,7 +140,7 @@ Work done =$f(x_1) - f(x_2)$ for conservative fields
 
 **Test for a conservative field**
 
-![[Pasted image 20240908134106.png|400]]
+![Local picture](../Media/Pasted%20image%2020240908134106.png)
 
 
 
@@ -149,22 +149,22 @@ Work done =$f(x_1) - f(x_2)$ for conservative fields
 **Green's Theorem**
 
 **Note : Green's theorem applies only with two-dimensional vector fields**
-Green's Theorem is useful when finding the area bounded by several curves. Instead of calculating one by one,![[Pasted image 20240824154502.png|400]]
+Green's Theorem is useful when finding the area bounded by several curves. Instead of calculating one by one,![Local picture](../Media/Pasted%20image%2020240824154502.png)
 We simply calculate by using Green's Theorem
 
 Positively orientated: single counter-clockwise traversal
 Simple: No intersection
 Closed: closed
 
-![[Pasted image 20240908134236.png|400]]
+![Local picture](../Media/Pasted%20image%2020240908134236.png)
 
 **Curl**
 Just remember using cross-product
-![[Pasted image 20240908134444.png|300]] = ![[Pasted image 20240908134458.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908134444.png) = ![Local picture](../Media/Pasted%20image%2020240908134458.png)
 
 **Divergence**
 Just remember using dot product
-![[Pasted image 20240908134526.png|300]] = ![[Pasted image 20240908134531.png|300]]
+![Local picture](../Media/Pasted%20image%2020240908134526.png) = ![Local picture](../Media/Pasted%20image%2020240908134531.png)
 # Chapter 5
 
 ### Arithmetic Sequences and Sum
@@ -187,9 +187,9 @@ Just remember using dot product
 
 **Limits laws**
 
-![[Pasted image 20240825101603.png|400]]
+![Local picture](../Media/Pasted%20image%2020240825101603.png)
 
-![[Pasted image 20240908135106.png|350]]
+![Local picture](../Media/Pasted%20image%2020240908135106.png)
 
 
 **Limit tricks**
@@ -214,14 +214,14 @@ However, if the sequence does not diverge, this does not mean it converges too. 
 
 **p-test**
 Only used for this form $\frac{1}{k^p}$
-![[Pasted image 20240825102543.png|300]]
+![Local picture](../Media/Pasted%20image%2020240825102543.png)
 
 
 **Power series and root and ratio tests**
-![[Pasted image 20240825104437.png|400]]
+![Local picture](../Media/Pasted%20image%2020240825104437.png)
 
 
-![[Pasted image 20240908135517.png|400]]
+![Local picture](../Media/Pasted%20image%2020240908135517.png)
 
 The key here is the < and > 1. This exist because if < 1, each additional term multiplied together is smaller and smaller, eventually converging. 
 If there is only one point of convergence, the radius of convergence is infinite.
@@ -230,7 +230,7 @@ If there is no points, then radius is zero.
 
 
 
-![[maclaurin-expansion-table.png]]
+![Local picture](../Media/maclaurin-expansion-table.png)
 **Final Radius of Convergence**: Once you have the radii of convergence for the different parts, the overall radius of convergence of the series is determined by taking the **minimum** of the radii of convergence of the individual parts. This is because the series will only converge where all parts converge.
 
 
@@ -245,12 +245,12 @@ If there is no points, then radius is zero.
 
 # Question(able)
 
-![[Pasted image 20240909170843.png]]
+![Local picture](../Media/Pasted%20image%2020240909170843.png)
 
 
 ### Tricks
 Partial fraction trick: Cover Up Method
-![[1_r-IgiBcBrK3jTn01koJpCQ.png|400]]
+![Local picture](../Media/1_r-IgiBcBrK3jTn01koJpCQ.png)
 To calculate $R_3$, use $x=3$ and substitute into the equation while excluding $x-3$
 
 ### Definitions and Equations
@@ -273,15 +273,15 @@ $$v'+v(1-n)p(x)=q(x)(1-n)$$
 Proceed to solve using method of integrating factors
 
 ##### Directional/Slope Field
-![[Pasted image 20241026105216.png|200]]
+![Local picture](../Media/Pasted%20image%2020241026105216.png)
 ##### Radioactive Decay
 $$\frac{dN}{dt}=-kN$$
 $k$ is the decay constant
 $k=\frac{\ln(2)}{t_{\frac{1}{2}}}$ where $t_{\frac{1}{2}}$ is the half life
 
-![[Pasted image 20241013165033.png|300]]
+![Local picture](../Media/Pasted%20image%2020241013165033.png)
 
-![[halflif5.png|300]]
+![Local picture](../Media/halflif5.png)
 ##### Newton's Equations
 
 
@@ -333,7 +333,7 @@ $$m^4-4m^3+6m^2-4m+0=0$$
 Guess a solution based off the form of the particular solution $f(x)$
 If the term of the guess solution is already in the general solution (usually $e^{kx}$), multiply by $x$ until it is not.
 
-![[maxresdefault 3.jpg|400]]
+![Local picture](../Media/maxresdefault%203.jpg)
 
 ##### Variation of parameters (finding particular solution)
 Suppose the particular solution is $f(x)$
@@ -433,7 +433,7 @@ Into
 $$f(t) = 2 \left(1 - u(t - 1)\right) + \frac{t^2}{2} \left[u(t - 1) - u\left(t - \frac{\pi}{2}\right)\right] + \cos t \cdot u\left(t - \frac{\pi}{2}\right)$$
 
 	
-![[lt.jpg]]
+![Local picture](../Media/lt.jpg)
 
 
 
@@ -463,16 +463,16 @@ Merge back into $u(x,y)$
 
 
 # Trigonometry
-![[Pasted image 20241102105825.png]]
-![[Pasted image 20241102105837.png]]
-![[Pasted image 20241102105843.png]]
+![Local picture](../Media/Pasted%20image%2020241102105825.png)
+![Local picture](../Media/Pasted%20image%2020241102105837.png)
+![Local picture](../Media/Pasted%20image%2020241102105843.png)
 
-![[Pasted image 20241102115405.png]]
+![Local picture](../Media/Pasted%20image%2020241102115405.png)
 
 
 
 ### Completing the Squares
-![[Pasted image 20241102115817.png]]
+![Local picture](../Media/Pasted%20image%2020241102115817.png)
 For this question, the optimal method is to substitute $u=y+x$ and then $t=u+2$. The first is clear but the substitution for $t$ is not obvious. The reason behind this is because after substituing $u$, we get $\frac{2u^2+8u+10}{(u+3)^2}$. Completing the square for the numerator gets us $2(u+2)^2+2$ . Since $u+3$ is in a bracket entirely, it is not a big concern. The issue is the numerator, so we substitute $t=u+2$ to simplify the numerator
 
 
@@ -480,7 +480,7 @@ For this question, the optimal method is to substitute $u=y+x$ and then $t=u+2$.
 
 
 
-![[Pasted image 20250427153323.png]]
+![Local picture](../Media/Pasted%20image%2020250427153323.png)
 **Best and foolproof method: $span(S) \subseteq span(T)$ and $span(T) \subseteq span(S)$ which will show independence too**
 
 **ALWAYS show linear independence**
@@ -532,7 +532,7 @@ For this question, the optimal method is to substitute $u=y+x$ and then $t=u+2$.
 # Content
 
 
-![[Pasted image 20250426195615.png|300]]
+![Local picture](../Media/Pasted%20image%2020250426195615.png)
 
 ==Consistent -> Has a solution. The solution may not be unique. For instance,==
 $$ \begin{bmatrix}
@@ -562,28 +562,28 @@ IMPORTANT AND USEFUL: linearly independent = invertible = determinant is not zer
 
 
 ==Inversing==
-![[Pasted image 20250118160021.png]]
+![Local picture](../Media/Pasted%20image%2020250118160021.png)
 
 ==RREF and non-square matrix==
-![[Pasted image 20250426192527.png]]
+![Local picture](../Media/Pasted%20image%2020250426192527.png)
 
 ==**Elementary matrix**==
 A square matrix E of order n is called an elementary matrix if it can be obtained from the identity matrix I by performing a single elementary row operation
 
 **Note that E is applied IN FRONT of A. So B = EA where B is the resultant matrix**
-![[Pasted image 20250119104657.png]]
+![Local picture](../Media/Pasted%20image%2020250119104657.png)
 
 
 
 ==**Determinants**==
 
-![[Pasted image 20250118160421.png]]
-![[Pasted image 20250119114536.png|300]]![[Pasted image 20250119114553.png|300]]
+![Local picture](../Media/Pasted%20image%2020250118160421.png)
+![Local picture](../Media/Pasted%20image%2020250119114536.png)![Local picture](../Media/Pasted%20image%2020250119114553.png)
 $$det(A)=det(A^T)$$
 $$det(AB)=det(A)det(B) \text{ for square matrix}$$ 
 
 ==Cramer Rule==
-![[Pasted image 20250314153736.png]]
+![Local picture](../Media/Pasted%20image%2020250314153736.png)
 
 
 
@@ -624,10 +624,10 @@ The dimension of V (dim(V)) is defined by the number of linearly independent vec
 
 
 ==**Relative Coordinates: Express vector V in terms of non-standard basis vectors**==
-![[Pasted image 20250130151413.png]]
-![[Pasted image 20250130151440.png]]
+![Local picture](../Media/Pasted%20image%2020250130151413.png)
+![Local picture](../Media/Pasted%20image%2020250130151440.png)
 ==Checking for Basis==
-![[Pasted image 20250130151122.png]]
+![Local picture](../Media/Pasted%20image%2020250130151122.png)
 
 
 ==Row Space and Column Space==
@@ -680,7 +680,7 @@ For a matrix A of size mxn
 
 
 ==Orthogonal and linear equation defining V==
-![[Pasted image 20250315151038.png|400]]
+![Local picture](../Media/Pasted%20image%2020250315151038.png)
 
 ==Orthogonal set and orthonormal set==
 Note that **the zero vector is the only vector that is orthogonal to itself**. In fact, the zero vector is orthogonal to every vector v∈V
@@ -691,7 +691,7 @@ Orthogonal set can contain zero vector. Orthonormal set cannot contain zero vect
 How do you quickly check if $w$ is orthogonal to V?
 
 Suppose you have set S that spans V (span(S) = V). $S = \{ u_1, u_2, ..., u_k\}$
-$w$ is orthogonal to V if and only if $w$ is in the nullspace of $A^T$ where A = $(u_1 \ \ u_2 \ \ ... \ \ u_k)$![[Pasted image 20250425200542.png]]
+$w$ is orthogonal to V if and only if $w$ is in the nullspace of $A^T$ where A = $(u_1 \ \ u_2 \ \ ... \ \ u_k)$![Local picture](../Media/Pasted%20image%2020250425200542.png)
 
 
 ==Orthogonal Complement==
@@ -711,7 +711,7 @@ This is because:
 - Using the orthogonal complement's definition - set of all vectors that are orthogonal to V, ie set of all vectors $w$ such as $w \cdot r = 0$ for all $r \in \text{Row(A)}$
 - A vector lies in the nullspace of A if and only if $Av=0$
 	- Written line by line, this means that $a_i \cdot v = 0$ where $a_i$ is the row vector of A
-![[Pasted image 20250302212103.png|400]]
+![Local picture](../Media/Pasted%20image%2020250302212103.png)
 
 Since A is symmetric, it is diagonalizable, and since it has only 2 eigenvalues, it must be that the geometric multiplicity of eigenvalue 2 is 2 too. Lastly, since A is symmetric, the **eigenspaces must are orthogonal to each other**, that is, E2 ⊥ E1
 
@@ -724,7 +724,7 @@ Since A is symmetric, it is diagonalizable, and since it has only 2 eigenvalues,
 
 ==Projection of Vector on a Subspace==
 
-![[Pasted image 20250302213519.png]]
+![Local picture](../Media/Pasted%20image%2020250302213519.png)
 
 If S is an orthonormal basis, this becomes simpler,
 $$v = (v\cdot u_1)u_1 + (v\cdot u_2)u_2 + ... + (v \cdot u_k)u_k$$
@@ -762,7 +762,7 @@ Here are the steps.
 	- span({v1,v2}) = span({u1,u2})
 - repeat for $v_{i+1} = u_{i+1} - u_{i+1}'$ 
 - Put into {v1,v2,v3...} and then normalise.
-![[Pasted image 20250414105230.png|400]]
+![Local picture](../Media/Pasted%20image%2020250414105230.png)
 
 ==Least Square Approximation==
 $Ax=b$ but What if b is not in A?
@@ -783,11 +783,11 @@ Note: Least square solutions may not be unique, but projection is unique.
 
 
 
-![[Pasted image 20250315142136.png]]
-![[Pasted image 20250315142416.png]]
+![Local picture](../Media/Pasted%20image%2020250315142136.png)
+![Local picture](../Media/Pasted%20image%2020250315142416.png)
 
 
-![[Pasted image 20250427110440.png]]
+![Local picture](../Media/Pasted%20image%2020250427110440.png)
 
 
 ==Eigenvalue and eigenvector==
@@ -819,14 +819,14 @@ A is orthgonally diagonalizable if and only if A is symmetric.
 
 
 Since **A is symmetric, it is diagonalizable**, and since it has only 2 eigenvalues, it must be that the geometric multiplicity of eigenvalue 2 is 2 too. **Lastly, since A is symmetric, the eigenspaces must are orthogonal** to each other, that is, E2 ⊥ E1
-![[Pasted image 20250401144327.png]]
+![Local picture](../Media/Pasted%20image%2020250401144327.png)
 ==Steady-state vector/stochastic matrix==
-![[Pasted image 20250401144603.png]]
+![Local picture](../Media/Pasted%20image%2020250401144603.png)
 A stochastic matrix is **a square matrix whose columns/rows are probability vectors**
-![[Pasted image 20250401160436.png]]
+![Local picture](../Media/Pasted%20image%2020250401160436.png)
 
 ==First-Order Homogeneous Linear System==
-![[Pasted image 20250411145736.png]]
+![Local picture](../Media/Pasted%20image%2020250411145736.png)
 
 
 
@@ -852,7 +852,7 @@ $$
 
 ==**Fundamental solution set**==
 Similar concept to a basis. It is the set of solutions from which the general solution form can is derived
-![[Pasted image 20250411145703.png]]
+![Local picture](../Media/Pasted%20image%2020250411145703.png)
 ==two obstructions to diagonalization==
 (i) the characteristic polynomial does not factorize into real linear factors,
 Solution: allow complex eigenvalues
@@ -874,16 +874,16 @@ $$
 
 
 ==Generalized eigenvectors==
-![[Pasted image 20250411153437.png]]
+![Local picture](../Media/Pasted%20image%2020250411153437.png)
 $$(A - \lambda I) \mathbf{v}_2 = \mathbf{v}_1 \text{ where v1 is the eigenvector}$$ 
 
 # Tricks and Tips
 ==Use DET==
 **Sometimes using DET to solve to find variables is faster than solving the actual equation**
-![[Pasted image 20250314133319.png]]
+![Local picture](../Media/Pasted%20image%2020250314133319.png)
 
 ==Vector subspace definition==
-![[Pasted image 20250426194350.png]]
+![Local picture](../Media/Pasted%20image%2020250426194350.png)
 
 
 
@@ -1157,12 +1157,12 @@ iii. B ⊆ span(T ).
 
 
 ==Substituting y1==
-![[Pasted image 20250427145609.png]]
+![Local picture](../Media/Pasted%20image%2020250427145609.png)
 
 
-![[Pasted image 20250429143510.png]]
+![Local picture](../Media/Pasted%20image%2020250429143510.png)
 
-![[Pasted image 20250429173244.png]]
+![Local picture](../Media/Pasted%20image%2020250429173244.png)
 Trick for (B):
 $$
 (A | I) --> rref --> (R | P)
@@ -1233,7 +1233,7 @@ Extrapolation of linear regression: Prediction beyond the observed range is dang
 When Simpson’s Paradox is observed, analysing data by subgroups (e.g., age groups) can help reveal relationships that may be misrepresented in the combined data. However, the validity of such subgroup analyses also depends on having sufficiently large and representative samples within each subgroup
 
 
-![[Pasted image 20250422110700.png]]
+![Local picture](../Media/Pasted%20image%2020250422110700.png)
 Take a look at the row vs column and calculate conditional rate.
 
 Confounding conditions, or confounding variables, are ==factors that distort the relationship between an independent and dependent variable in a study==
@@ -1242,8 +1242,8 @@ MUST BE NON-ZERO FOR BOTH.
 
 
 
-![[Pasted image 20250125150849.png|100]]![[Pasted image 20250125150837.png|100]]![[Pasted image 20250125152751.png|100]]
-![[Pasted image 20250125164012.png|400]]
+![Local picture](../Media/Pasted%20image%2020250125150849.png)![Local picture](../Media/Pasted%20image%2020250125150837.png)![Local picture](../Media/Pasted%20image%2020250125152751.png)
+![Local picture](../Media/Pasted%20image%2020250125164012.png)
 **WEIRD THEOREM**
 $\neg \forall x \in D \ \  P(x)$ <-> $\exists x \in D \ \ \neg P(x)$
 $\neg \exists x \in D \ \ P(x)$ <-> $\forall x \in D \ \ \neg P(x)$
@@ -1268,24 +1268,24 @@ Prove both p -> q and q->p
 **Splitting into cases**
 **Exhaust all cases**
 
-![[Pasted image 20250125154325.png]]
+![Local picture](../Media/Pasted%20image%2020250125154325.png)
 
 
 
-![[Pasted image 20250125172927.png|00]]
-![[Pasted image 20250125173001.png|00]]
-![[Pasted image 20250125173006.png|00]]
-![[Pasted image 20250125173011.png|00]]
+![Local picture](../Media/Pasted%20image%2020250125172927.png)
+![Local picture](../Media/Pasted%20image%2020250125173001.png)
+![Local picture](../Media/Pasted%20image%2020250125173006.png)
+![Local picture](../Media/Pasted%20image%2020250125173011.png)
 
-![[Pasted image 20250125173233.png|00]]
+![Local picture](../Media/Pasted%20image%2020250125173233.png)
 
-![[Pasted image 20250125173237.png|00]]
+![Local picture](../Media/Pasted%20image%2020250125173237.png)
 
-![[Pasted image 20250125173242.png|00]]
+![Local picture](../Media/Pasted%20image%2020250125173242.png)
 
 
 
-![[Pasted image 20250311202208.png|300]]
+![Local picture](../Media/Pasted%20image%2020250311202208.png)
 
 ## Chapter 4
 $\emptyset$ is an empty set. NOT an empty element
@@ -1293,7 +1293,7 @@ $\emptyset$ is an empty set. NOT an empty element
 $\subset$ is subset, $\subseteq$ is subset + equivalent
 
 Roster rotation!
-![[Pasted image 20250310162338.png|400]]
+![Local picture](../Media/Pasted%20image%2020250310162338.png)
 
 ##### Power Sets P
 
@@ -1304,17 +1304,17 @@ P( $\emptyset$ ) = { $\emptyset$ }
 
  So the only subset of ∅ is ∅
 
-![[Pasted image 20250221210715.png]]
+![Local picture](../Media/Pasted%20image%2020250221210715.png)
 
 
-![[Pasted image 20250221210633.png]]
+![Local picture](../Media/Pasted%20image%2020250221210633.png)
 $\bar B$ is B complement  
 
 
 Union: $A\cup B$ = $\{ x : x \in A \text{ or } x \in B \}$ 
 Intersection: $A \cap B$ = $\{ x : x \in A \text{ and } x \in B \}$ 
 Complement: $A / B$ = $\{ x : x \in A \text{ and } x \notin B  \}$
-Respectively: ![[Pasted image 20250221210429.png|100]] 
+Respectively: ![Local picture](../Media/Pasted%20image%2020250221210429.png) 
 ##### Set-builder notation
 $$\{x\in U | P(x)\}$$
 
@@ -1342,7 +1342,7 @@ From Proposition 4.2.7, we know ∅ ⊆ A. So ∅ ∈ P(A) by the definition of 
 This implies P(A)̸ = ∅ as ∅ has no element
 
 **Last resort: Use Truth Table**
-![[Pasted image 20250310192718.png|400]]
+![Local picture](../Media/Pasted%20image%2020250310192718.png)
 
 **When in doubt, use distributive property**
 
@@ -1354,7 +1354,7 @@ This implies P(A)̸ = ∅ as ∅ has no element
 Cartesian product of two sets: {x,y} and {1,2,3,4}:
 $$\{x,y\} \times \{ \text{1,2,3} \} = \{(a,1), (a,2),(a,3),(b,1),(b,2),(b,3)\}$$
 #### Composition
-![[Pasted image 20250223134930.png|400]]
+![Local picture](../Media/Pasted%20image%2020250223134930.png)
 
 Let R be a relation from A to B. Let S be a relation from B to C.
 $S \circ R$ is defined as { (x,z) |  (x,y) $\in$ R and (y,z) $\in$ S for some y $\in$ B}
@@ -1363,11 +1363,11 @@ Note how the set B has to be the same.
 
 **S composed with R**
 Example: (Q is all rational numbers)
-![[Pasted image 20250223135358.png|300]]
+![Local picture](../Media/Pasted%20image%2020250223135358.png)
 (4.8, 2) is in $S \circ R$. 4 is in Z such that (4.8,4) is in R (since floor x = y) and (4, 2) is in S (condition: y=z^2).
 
 We can sometimes merge the conditions for speed:
-![[Pasted image 20250223140424.png]]
+![Local picture](../Media/Pasted%20image%2020250223140424.png)
 
 
 ##### Inverse
@@ -1376,7 +1376,7 @@ Let relation $R^{-1}$ be the inverse of R, from B to A.
 
 $R^{-1}$ = { (y,x) $\in$ B $\times$ A : (x,y) $\in$ R }
 
-![[Pasted image 20250223140654.png]]
+![Local picture](../Media/Pasted%20image%2020250223140654.png)
 
 ##### Composition with Inversion
 Much like matrices, when composition is inversed, some orders of operations are changed.
@@ -1384,14 +1384,14 @@ Much like matrices, when composition is inversed, some orders of operations are 
 Let R be a relation from A to B. Let S be a relation from B to C.
 $$(S\circ R)^{-1} = R^{-1}\circ S^{-1}$$ 
 
-![[Pasted image 20250223141017.png|400]]
+![Local picture](../Media/Pasted%20image%2020250223141017.png)
 ##### 
 
 ### Graphs representing graphs
 
 ##### Directed Graphs
 
-![[Pasted image 20250223141819.png]]
+![Local picture](../Media/Pasted%20image%2020250223141819.png)
 Reading in D as: {from, to}. Order matters because this is a directed graph
  **directed graph (V, D)**
 
@@ -1399,13 +1399,13 @@ Reading in D as: {from, to}. Order matters because this is a directed graph
 **undirected graph (W, E)**
 
 
-![[Pasted image 20250223141808.png]]
+![Local picture](../Media/Pasted%20image%2020250223141808.png)
 Reading similar to D. Put both sides instead of {B,P and {P,B}}
 Note the {} instead of ()
 
 
 
-![[Pasted image 20250310205428.png]]
+![Local picture](../Media/Pasted%20image%2020250310205428.png)
 x is (the name of) a student who is enrolled in the course y
 $S \cdot R$ => A to C (reverse order)
 
@@ -1415,12 +1415,12 @@ a-b = 2x
 b-a = 2(-x) => also even
 
 
-![[Pasted image 20250310213353.png]]
+![Local picture](../Media/Pasted%20image%2020250310213353.png)
 Explanation for linking $T \cdot (S \cdot R)$ together
 
 ## Chapter 6
 The first option is reflexive. The second is symmetric. The last is transitivity.
-![[Pasted image 20250223142236.png|300]]
+![Local picture](../Media/Pasted%20image%2020250223142236.png)
 
 
 ##### Reflexivity
@@ -1432,17 +1432,17 @@ Note: can we surmise that all symmetric relations are reflexive? No. The reflexi
 
 ##### Transitivity
 $∀x, y , z ∈ A (x R y ∧ y R z ⇒ x R z)$
-![[Pasted image 20250223154058.png]]
+![Local picture](../Media/Pasted%20image%2020250223154058.png)
 ##### Equivalence classes
 
 A equivalence relation is a relation that is reflexive, symmetric and transitive.
-	![[Pasted image 20250223153744.png|100]]
+	![Local picture](../Media/Pasted%20image%2020250223153744.png)
 ### Equivalence Classes
-![[Pasted image 20250312200749.png]]
+![Local picture](../Media/Pasted%20image%2020250312200749.png)
 x is related to?
 $[x]_{~}$ is the set of all elements of A that x is ~-related to
 We can see from the arrow drawing
-![[Pasted image 20250312200956.png|100]]
+![Local picture](../Media/Pasted%20image%2020250312200956.png)
 b is connected to c and vice versa. a is only connected to itself
 
 
@@ -1452,7 +1452,7 @@ Call C a partition of a set A if
 (0) C is a set of nonempty subsets of A;
 (1) every element of A is in some element of C ; and
 (2) if two elements of C have a nonempty intersection, then they are equal
-![[Pasted image 20250312200604.png|300]]
+![Local picture](../Media/Pasted%20image%2020250312200604.png)
 
 C is a set of nonempty subsets S ⊆ A such that every element of A is in exactly one
 S ∈ C 
@@ -1465,15 +1465,15 @@ A/~ is called the quotient of A by ~. It is the set of all equivalence classes w
 A/~ = {[x] : x $\in$ A}
 For instance, A/= <=> {{x} : x $\in$ A}
 
-![[Pasted image 20250223220105.png]]
+![Local picture](../Media/Pasted%20image%2020250223220105.png)
 
 
-![[Pasted image 20250223215809.png]]
+![Local picture](../Media/Pasted%20image%2020250223215809.png)
 
 Theorem 6.2.5. Let ∼ be an equivalence relation on a set A. For all x, y ∈ A,
 x ∼ y ⇔ [x] = [y].
 
-![[Pasted image 20250223215831.png]]
+![Local picture](../Media/Pasted%20image%2020250223215831.png)
 
 **S is not symmetric because (1, 1) S (2, 2) but (2, 2) /S (1, 1), for instance**
 ##### Antisymmetry and totality
@@ -1506,9 +1506,9 @@ In other words, if you take any nonempty set S⊆NS\subseteq \mathbb{N}, there i
 This principle is closely related to the principle of mathematical induction. In fact, they are logically equivalent in standard treatments of number theory (the Peano axioms).
 
 
-![[Pasted image 20250311203350.png]]
+![Local picture](../Media/Pasted%20image%2020250311203350.png)
 
-![[Pasted image 20250311203221.png]]
+![Local picture](../Media/Pasted%20image%2020250311203221.png)
 
 
 
@@ -1549,7 +1549,7 @@ The symmetry of a relation R on A states that ∀x, y ∈ A (x R y ⇒ y R x). T
 attempt claims that this implies ∀x, y ∈ A (x R y ∧ y R x). This is not justified
 (and actually not true)
 
-![[Pasted image 20250312211543.png]]
+![Local picture](../Media/Pasted%20image%2020250312211543.png)
 
 Reflexive = Transitive and Symmetric 
 
