@@ -5,21 +5,10 @@ tags:
 ---
 
 # References
-Every time you want to publish an update, you will need to copy the files over. You can automate this in your terminal:
-   * **Mac/Linux:** 
-     `rsync -av --delete /path/to/Obsidian/Garden/ ./content/ && npx quartz sync`
 
-For me that would be
-`rsync -av --delete "/home/pran/Documents/Pran's Vault/Public" ./content/ && npx quartz sync`
-
-You don't need to touch the terminal to update your site anymore. Quartz has a built-in sync tool.
-1. Write your notes, create links, and build your knowledge base in your Obsidian `Garden` folder.
-2. Open your terminal, navigate to your `my-digital-garden` folder, and type:
-   ```bash
-   npx quartz sync
-   ```
-   *This single command automatically commits your changes and pushes them to GitHub.*
-3. Cloudflare Pages will detect the change in GitHub, automatically build the new version of your site, and deploy it within a minute.
+Run
+`rsync -av --delete "/home/pran/Documents/Pran's Vault/Public/" ./content/ && npx quartz sync`
+To sync
 
 # Notes and Insights
 
@@ -168,8 +157,8 @@ You can make this painless by creating a command that copies the files and syncs
      `rsync -av --delete /path/to/Obsidian/Garden/ ./content/ && npx quartz sync`
 
 For me that would be
-`rsync -av --delete "/home/pran/Documents/Pran's Vault/Public" ./content/ && npx quartz sync`
-
+`rsync -av --delete "/home/pran/Documents/Pran's Vault/Public/" ./content/ && npx quartz sync`
+Note `/Public/` which copies the files rather than the folder.
 
    * **Windows (Command Prompt):** 
      `robocopy "C:\path\to\Obsidian\Garden" "C:\path\to\my-digital-garden\content" /MIR & npx quartz sync`
