@@ -7,7 +7,9 @@ tags:
 # References
 
 Run
-`rsync -av --delete "/home/pran/Documents/Pran's Vault/Public/" ./content/ && npx quartz sync`
+```
+rsync -av --delete "/home/pran/Documents/Pran Public Blog/Pran's Public Blog" ./content/ && npx quartz sync
+```
 To sync
 
 # Notes and Insights
@@ -50,7 +52,7 @@ Quartz is the engine that will turn your Markdown files into a functioning websi
    npx quartz create
    ```
 
-
+- Choose the `symlink` option. Put the Public folder's directory link
 - Manually create an `index.md` file and put it in content subfolder. Example:
 
 ```
@@ -61,7 +63,7 @@ Welcome to my digital garden!
 ```
 
 
-1. Test it locally:
+5. Test it locally:
    ```bash
    npx quartz build --serve
    ```
